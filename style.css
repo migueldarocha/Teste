@@ -13,4 +13,20 @@ html, body {
 header {
     background-color: black;
     text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 12px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+header > p {
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
