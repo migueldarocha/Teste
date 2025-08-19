@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-body {
-    background-color: black;
-    color: white;
-}
-
 p {
-    max-width: 300px;
     text-align: justify;
 }
