@@ -26,10 +26,8 @@ header > p {
     padding-bottom: 12px;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: bolder;
+main {
+
 }
 
 footer {
@@ -37,4 +35,10 @@ footer {
     color: white;
     text-align: center;
     padding: 12px 0px 12px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
 }
