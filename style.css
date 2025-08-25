@@ -33,7 +33,7 @@ header > h1 {
     font-variant: small-caps;
     text-transform: uppercase;
     font-family: var(--fonte2);
-    font-size: 25vw;
+    font-size: 2vw;
 }
 
 header > p {
@@ -51,7 +51,7 @@ section {
     padding-left: 4em;
     border-radius: 4px;
     font-family: var(--fonte3);
-    font-size: 15vw;
+    font-size: 1.2vw;
 }
 
 section.texto {
