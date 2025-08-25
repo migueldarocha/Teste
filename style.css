@@ -33,7 +33,7 @@ header > h1 {
     font-variant: small-caps;
     text-transform: uppercase;
     font-family: var(--fonte2);
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 
 header > p {
@@ -42,6 +42,7 @@ header > p {
 
 main {
     padding: 2em;
+    color: white;
 }
 
 section {
@@ -51,7 +52,7 @@ section {
     padding-left: 4em;
     border-radius: 4px;
     font-family: var(--fonte3);
-    font-size: 1.2vw;
+    font-size: 2vw;
 }
 
 section.texto {
@@ -66,20 +67,25 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.25);
-    width: 500px;
+    display: inline-block;
+    padding: 5px;
 }
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 12px 0px 12px 0px;
+    margin: 0em 2em;
+    border-radius: 4px;
+    line-height: 2em;
 }
 
-header > a:hover,footer > a:hover {
-    text-decoration: underline;}
-
-a {
+header > p > a, footer > p > a {
+    color: white;
     text-decoration: none;
-    color: inherit;
-    font-weight: bolder;
+}
+
+header > p > a:hover, footer > p > a:hover {
+    color: rgb(97, 127, 192);
+    text-decoration: underline;
 }
