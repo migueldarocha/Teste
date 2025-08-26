@@ -20,12 +20,16 @@
 html, body {
     min-height: 100vh;
     background-color:  rgb(36, 36, 36);
+    background-image: url('imagens/woodtexture.jpg');
+    background-repeat: repeat;
+
 }
 
 header {
     background-color:  rgb(36, 36, 36);
     text-align: center;
     color: white;
+    background-image: url('imagens/woodtexture.jpg');
 }
 
 header > h1 {
@@ -50,11 +54,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 4em;
-    border-radius: 4px;
     font-family: var(--fonte3);
     font-size: 2vw;
 }
 
+section > p {
+    padding-bottom: 16px;
+}
 section.texto {
     background-color: white;
     color: black;
@@ -65,19 +71,30 @@ section.imagem {
     color: white;
 }
 
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+}
+
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.25);
     display: inline-block;
     padding: 5px;
 }
 footer {
-    background-color: black;
     color: white;
     text-align: center;
     padding: 12px 0px 12px 0px;
-    margin: 0em 2em;
-    border-radius: 4px;
+    margin: 0.5em 2em;
     line-height: 2em;
+    background-image: url('imagens/background003.jpg');
 }
 
 header > p > a, footer > p > a {
