@@ -29,7 +29,8 @@ header {
     text-align: center;
     color: white;
     background-image: url('imagens/woodtexture.jpg');
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 header > h1 {
@@ -38,7 +39,6 @@ header > h1 {
     text-transform: uppercase;
     font-family: var(--fonte2);
     font-size: 4vw;
-    position: sticky;
 }
 
 header > p {
@@ -47,6 +47,7 @@ header > p {
 
 main {
     padding: 2em;
+    padding-top: 10vh;
     color: white;
 }
 
